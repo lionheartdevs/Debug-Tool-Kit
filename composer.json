@@ -1,0 +1,46 @@
+{
+  "name": "lionheart/debugkit",
+  "description": "This is a debug plugin that includes kint and woops for helping with php wordpress debugging.",
+  "type": "project",
+  "keywords": [
+    "wordpress",
+    "wp",
+    "plugin",
+    "debug"
+  ],
+  "homepage": "https://lionheartdevs.com",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Chris Norman",
+      "email": "chris@lionheartdevs.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9 || ^7.0 || ^8.0"
+  },
+  "require-dev": {
+    "kint-php/kint": "^2",
+    "filp/whoops": "^2"
+  },
+  "suggest": {
+    "johnbillion/query-monitor": "Monitors database and cache queries as well as provides an awesome amount of information to help you."
+  },
+  "autoload": {
+    "classmap": [],
+    "files": [
+      "src/assist/included.php",
+      "src/test.php"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "vendor-dir": "assets/vendor"
+  }
+}
