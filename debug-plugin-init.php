@@ -26,14 +26,11 @@ if(!defined('ABSPATH')){
 }
 
 
+
+
 //this require the file in question to be loaded.
 require_once(__DIR__ . '/assets/vendor/autoload.php');
 
-//add_action('init', __NAMESPACE__ . '\launch');
-//
-//function launch(){
-//	//launch your plugin or do something.
-//}
 
 
 

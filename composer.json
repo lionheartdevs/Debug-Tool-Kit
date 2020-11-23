@@ -17,11 +17,10 @@
     }
   ],
   "require": {
-    "php": "^5.5.9 || ^7.0 || ^8.0"
-  },
-  "require-dev": {
-    "kint-php/kint": "^2",
+    "php": "^5.6 || ^7.0 ",
+    "kint-php/kint": "^3",
     "filp/whoops": "^2"
+
   },
   "suggest": {
     "johnbillion/query-monitor": "Monitors database and cache queries as well as provides an awesome amount of information to help you."
@@ -29,8 +28,7 @@
   "autoload": {
     "classmap": [],
     "files": [
-      "src/assist/included.php",
-      "src/test.php"
+      "src/assist/included.php"
     ]
   },
   "extra": {
